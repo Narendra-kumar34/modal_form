@@ -6,13 +6,18 @@
   justify-content: center;
 }
 
+.modal-content {
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  width: 550px;
+}
+
 button {
   padding: 10px;
   background-color: lightgreen;
   color: white;
-}
-
-.modal-content {
 }
 
 .inputfield {
