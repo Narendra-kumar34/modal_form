@@ -52,9 +52,10 @@ const App = () => {
   }, []);
 
   return (
-    <div className="modal">
+    <div className="app">
       <h1>User Details Form</h1>
       {formVisible && (
+        <div className="modal">
         <div className="modal-content" ref={formRef}>
           <h2>Fill Details</h2>
           <form onSubmit={handleSubmit}>
@@ -106,7 +107,7 @@ const App = () => {
               Submit
             </button>
           </form>
-        </div>
+        </div></div>
       )}
       {!formVisible && (
         <button onClick={() => setFormVisible(true)}>Open Form</button>
